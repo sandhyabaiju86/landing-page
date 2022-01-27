@@ -45,7 +45,7 @@ ul li a{
     font-weight: bolder;
 }
 #home{
-    height: 400px;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -57,7 +57,6 @@ ul li a{
 #home .skills{
     width:50%;
     height: auto;
-    background-color: white;
     margin-left:50px;
     padding: 30px;
     border-radius: 8px;
@@ -100,4 +99,47 @@ ul li a{
     width: 150px;
     border-radius: 8px;
     border: none;
+}
+#services{
+    background-color:#e5e7eb; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+   
+   
+
+}
+#services .box{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 200px;
+    word-wrap: break-word;
+    text-align: center;
+    border: 1px solid #1f2937;
+    border-radius: 8px;
+}
+.box p{
+    padding-top: 30px;
+    color:#1f2937;
+    font-weight: 900;
+}
+#works{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+#contact{
+   
+}
+.footer{
+background-color:#1f2937; 
 }
